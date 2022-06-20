@@ -19,7 +19,7 @@ driver = webdriver.Firefox(options=options, service =service)
 def Login(): #login as cookies are not kept
     print('Attempting Login')
     email = '[USERNAME]'
-    password = '[[PASSWORD]]'
+    password = '[PASSWORD]'
     time.sleep(5)
 
     #click login button
